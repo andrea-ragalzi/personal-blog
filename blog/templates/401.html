@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}401 - Denied access{% endblock %}
+
+{% block content %}
+<div class="container content-container">
+    <div class="row no-gutters">
+        <div class="col-md-9 order-md-2">
+            <div class="about-page-block">
+                <p class="lead text-danger">Error 401</p>
+                <hr>
+                <p>Denied access.</p>
+                <p>You don't have the necessary permissions to perform the operation.</p>
+                <hr>
+                <a class="btn btn-sm btn-success" href="{{ url_for('homepage') }}">← All posts</a>
+            </div>
+        </div>
+        <div class="col-md-3 order-md-1">
+            {% include 'about_me_snippet.html' %}
+        </div>
+    </div>
+</div>
+{% endblock %}
