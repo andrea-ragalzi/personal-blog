@@ -22,3 +22,16 @@ db.session.add(u)
 db.session.commit()  
 quit()  
 flask run  
+
+
+### Enable Login
+
+Create .env file in personal-blog folder  
+Add this line to the file SECRET_KEY = ''
+
+python3  
+
+import uuid  
+print(uuid.uuid4().hex)  
+
+Assign the output to SECRET_KEY in .env file
