@@ -1,9 +1,9 @@
 # personal-blog 
 A blog made following pymike00's Flask course.
 
-Link repository del corso Flask che ho seguito:
+Repository link for the Flask course I took:  
 
-https://github.com/pymike00/codingwiz-dev
+https://github.com/pymike00/codingwiz-dev  
 
 
 ### Local installation instructions
