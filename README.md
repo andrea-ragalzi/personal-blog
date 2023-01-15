@@ -6,7 +6,7 @@ Link repository del corso Flask che ho seguito:
 https://github.com/pymike00/codingwiz-dev
 
 
-### Istruzioni installazione 
+### Local installation instructions
 
 git clone https://github.com/andrea-ragalzi/personal-blog.git  
 cd  personal-blog  
